@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+</head>
+
+<body style="background-color: #8e3a3a">
+  <div id="alert"></div>
+  <div class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 p-3 border-white shadow-lg rounded-pill ">
+          <form id="userForm" class="w-50 offset-sm-3 ">
+            <label class="form-label" for="username" style="color: aliceblue">name:</label>
+            <input type="text" id="username" name="username" placeholder="enter firstname" class="form-control mb-2" />
+            
+            <label class="form-label" for="username" style="color: aliceblue">last name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="enter lastname" class="form-control mb-2" />
+            
+            <label class="form-label" for="score" style="color: aliceblue">age:</label>
+            <input  type="number" id="age" name="age" placeholder="enter your age"
+              class="form-control" />
+            <div class="offset-sm-4">
+              <br /><button type="reset" class="btn btn-danger mr-2">
+                Reset
+              </button>
+              <button class="btn btn-success" type="submit" >Gönder</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8 offset-sm-2 mt-4 p-3 border-white shadow-lg rounded-pill ">
+          <ul class="list-group" id="userList">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./addInfo.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
