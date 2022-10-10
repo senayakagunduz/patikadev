@@ -5,8 +5,7 @@
 ![anasayfa](https://user-images.githubusercontent.com/69090467/184511635-3bfebac0-5b58-4bc5-8115-c5abdc5ef1e9.png)
 # sendScoreForm
 ![addFormToList](https://user-images.githubusercontent.com/69090467/192251865-9bf32abb-d3d3-4b68-8684-9221935ba4fe.png)
-# instagramclone.html in bootstrap folder
-
+# instagramclone
 ![instagramclone](https://user-images.githubusercontent.com/69090467/194827947-b53610f3-1846-4d2e-a325-ff23abcbeca7.png)
 # Google Homepage
 ![googleupdatehomepage](https://user-images.githubusercontent.com/69090467/193472722-f59aa370-f225-4ac9-a90e-cf73312c551f.png)
