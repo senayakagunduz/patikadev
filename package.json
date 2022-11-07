@@ -10,16 +10,18 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/senayakagunduz/patikadev.git"
   },
-  "author": "",
+  "author": "senay",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/senayakagunduz/patikadev/issues"
   },
-  "homepage": "https://github.com/senayakagunduz/patikadev#readme"
+  "homepage": "https://github.com/senayakagunduz/patikadev#readme",
+  "keywords": [
+    "patikadev"
+  ]
 }
