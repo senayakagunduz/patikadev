@@ -2,9 +2,7 @@
 [7,5,1,8,3,6,0,9,4,2]
 
 1.7 yi root olarak alıyorum.
-                                  7
-                                 /
-                                5 küçükler sola büyükler sola gelecek
+                                  7 den küçükler sola büyükler sola gelecek
 # 
                                   7
                                  / \
