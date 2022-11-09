@@ -1,5 +1,5 @@
 # Binary searh tree
-[7,5,1,8,3,6,0,9,4,2]
+[7,5,1,8,3,6,0,9,4,2] karmaşıklığı O(nlogn)
 
 1.7 yi root olarak alıyorum.
                                   7 den küçükler sola büyükler sola gelecek
@@ -13,3 +13,5 @@
                             0   3
                                / \
                               2   4  (sırasıyla küçükleri sola büyükleri sağa yerleştirdim)
+                              
+www.patika.dev            
