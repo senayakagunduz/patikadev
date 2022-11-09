@@ -14,3 +14,4 @@ Yukarıdaki dizinin sort türüne göre aşamalarını yazınız. Big-O gösteri
 
 # O(nlogn)
 
+www.patika.dev
