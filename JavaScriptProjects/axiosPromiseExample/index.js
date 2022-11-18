@@ -1,6 +1,8 @@
-import axios from "axios";
+import getData from "./getData.js";
 
-async function(_id){
-  return const user=await axios("https://jsonplaceholder.typicode.com/users");
-} 
+
+await getData(1)
+
+
+
 
