@@ -1,6 +1,7 @@
 import Header from "./header.js";
 import User from "./components/User.js";
 import Players from "./components/Players.js";
+import UseEffectt from './components/UseEffectt';
 import { useState } from "react";
 // const name = "senay";
 // const lastname = "akagunduz";
@@ -20,6 +21,7 @@ function App() {
   const [age, setAge] = useState("23");
   const [friends, setFriend] = useState(["Beyza", "Ayşe", "Yusuf"]);
   const [address, setAddress] = useState({ title: "Istanbul", zip: 11002 });
+  const [isVisible,setIsVisible]=useState(false);
   return (
     <div className="App">
       <h1>Merhaba {name} {age}</h1>
@@ -46,6 +48,13 @@ function App() {
       <div>{address.title} {address.zip}</div>
       <br/>
       <button onClick={()=>setAddress({title:"Ankara", zip:44444})}>Adresi değiştir</button>
+      <hr/>
+      <br/>
+      
+
+      isVisible && <UseEffectt/>
+      <button onClick={()=>setIsVisible(!isVisible)}>Toggle Counter</button>
+
     </div>
 
   );
