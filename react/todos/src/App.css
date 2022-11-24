@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:whitesmoke;
+}
+.todos{
+  
+    height:400px;
+    width: 500px;
+    background-color: white;
+    margin-top: 150px;
+}
+
+
