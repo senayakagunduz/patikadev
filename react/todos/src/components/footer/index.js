@@ -17,7 +17,7 @@ function Footer() {
             <footer >
                 <div className='footer'>
                     <div >
-                        <p className='todo-count'>items left</p>
+                        <p className='todo-count ml-1'>items left</p>
                     </div>
 
                     <div >
@@ -29,7 +29,7 @@ function Footer() {
                     </div>
 
                     <div  >
-                        <span className='span ml-3'>completed</span>
+                        <span className='span ml-3 mr-1'>completed</span>
                     </div>
                 </div>
             </footer>
