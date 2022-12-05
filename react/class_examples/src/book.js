@@ -1,6 +1,6 @@
 import React from 'react'
 import {CardBody,CardSubtitle} from 'reactstrap';
-import { CardTitle,CardText,CardLink,Card} from 'reactstrap';
+import { CardTitle,CardText,Card} from 'reactstrap';
 
 function Book({title,img,author}) {
     //const {img,title,author}="props" ya böyle yazabiliriz ve en alta props.title yerine sadece {title} yazarız
