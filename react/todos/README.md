@@ -1,3 +1,5 @@
+![todoApp](https://user-images.githubusercontent.com/69090467/206977370-dd42d0f5-af87-44e9-bff8-8583f8470e0a.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
