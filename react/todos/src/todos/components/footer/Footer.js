@@ -1,8 +1,12 @@
 import React from 'react'
 
-function Footer({setStatus,todos}) {
+function Footer({setStatus,todos,setTodos}) {
 const statusHandler=(e)=>{
     setStatus(e.target.id)
+}
+const clearCompleted=(e)=>{
+e.preventDefault();
+setTodos(todos.filter((todo)=>todo.completed===false))
 }
     return (
     <section className="todoapp goTop">
@@ -19,7 +23,7 @@ const statusHandler=(e)=>{
                          <a href="#/" id="completed" onClick={statusHandler}>Completed</a>
                      </li>
              </ul>
-         <button id="clearcompleted" onClick={statusHandler} className="clear-completed">Clear completed</button>
+         <button id="clearcompleted" onClick={statusHandler} onMouseDown={clearCompleted} className="clear-completed">Clear completed</button>
         </div>
     </section>
         

@@ -3,7 +3,6 @@ import './App.css';
 import Form from './todos/components/Form/Form'
 import Todolist from './todos/components/TodoList/Todolist';
 import Footer from './todos/components/footer/Footer';
-import parse from 'emmet/dist/src/markup';
 
 function App() {
   //inputa girilen değeri kaydetmek için inputText useState oluşturdum.
@@ -58,7 +57,7 @@ function App() {
       <Form inputText={inputText} setInputText={setInputText}
         todos={todos} setTodos={setTodos} setStatus={setStatus}/>
       <Todolist todos={todos} setTodos={setTodos} filteredTodos={filteredTodos} />
-      <Footer setStatus={setStatus} todos={todos}/>
+      <Footer setStatus={setStatus} todos={todos} setTodos={setTodos}/>
     </div>
   );
 }
